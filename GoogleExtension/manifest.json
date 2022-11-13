@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Fix Avatar YT",
+    "version": "1.0",
+    "description": "Fix youtube avatars",
+    "icons": {
+        "128": "128.png"
+    },
+    "declarative_net_request" : {
+        "rule_resources" : [{
+          "id": "ruleset_1",
+          "enabled": true,
+          "path": "rules_1.json"
+        }]
+    },
+    "host_permissions":[
+        "*://yt3.ggpht.com/*",
+        "*://*.youtube.com/*"
+    ],
+    
+    "permissions": [ "declarativeNetRequest"]
+ }

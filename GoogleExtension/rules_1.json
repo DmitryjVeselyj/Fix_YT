@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "redirect",
+            "redirect": {"regexSubstitution": "https://yt4.ggpht.com/"}
+        },
+        "condition": {
+            "regexFilter": "https://yt3.ggpht.com/*",
+            "resourceTypes": [
+                "image"
+            ]
+        }
+    }
+]
